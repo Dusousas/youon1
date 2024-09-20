@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+.maxWidth {
+  margin: 0 auto;
+  padding: 0 2%;
+  max-width: 1420px;
+}
+
+.customH {
+  position: relative;
+  top: 71px;
+}
+
+/* BACKGROUNDS */
+.bg {
+  background-image: url('../public/bg1.jpeg');
+  background-size: cover;
+  height: calc(100vh - 71px);
+  background-position: bottom;
+}
+
+.bg1 {
+  background-image: url('../public/bg2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bgCard {
+  background-image: url('../public/bgCard.png');
+  background-size: cover;
+}
+
+/* EFEITOS VISUAIS */
+.gradient1 {
+  background: linear-gradient(to right, #0bb0e6, #35353a);
+}
+
+.outlined-text {
+  /* color: transparent; */
+  color: rgba(11, 176,230, 0.04);
+
+  -webkit-text-stroke: 1px #0bb0e6;
+  text-stroke: 2px #0bb0e6;
+}
+
+.outlined-text1 {
+  color: rgba(255, 255, 255, 0.08);
+  -webkit-text-stroke: 1px #ffffff;
+  text-stroke: 1px #ffffff;
+}
+
+.shadow {
+  box-shadow: rgba(11, 176, 230, 0.45) 0px 20px 22px -20px;
+}
+
+
+.cardLinear {
+  background: linear-gradient(0deg, #0bb0e6 -500%, transparent 90%);
+}
+
+/* SCROLL */
+.scroll-container {
+  max-height: 500px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* PERGUNTAS */
+summary {
+  list-style: none; 
+  position: relative;
+  padding-right: 25px; /* espaço para a seta */
+  cursor: pointer;
+  background: linear-gradient(0deg, #0bb0e6 -500%, transparent 90%);
+}
+
+.cardLinear {
+  background-color: #0bb0e6;
+  background: linear-gradient(0deg, #0bb0e6 -500%, transparent 90%);
+}
+
+summary::after {
+  content: '🠗';
+  position: absolute;
+  right: 10px;
+  transition: transform 0.3s ease;
+}
+
+details[open] summary::after {
+  transform: rotate(180deg);
+}
+
+/* WPP */
+.whatsapp a {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 50px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  z-index: 1;
+}
+
+.whatsapp a:hover {
+  background-color: #00c93c;
+}
