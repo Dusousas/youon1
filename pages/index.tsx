@@ -6,7 +6,7 @@ import Plans from "@/components/Plans";
 import Portfolio from "@/components/Portfolio";
 import Services from "@/components/Services";
 import Services2 from "@/components/Services2";
-import Whatsapp from "@/components/subcomponents/Whatsapp";
+import Whatsapp from "@/components/Whatsapp";
 
 export default function Home() {
   return (
