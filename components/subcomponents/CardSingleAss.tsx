@@ -50,8 +50,8 @@ export default function CardSingleAss() {
             <h1 className="pl-2">Criação de site profissional com modelo de layout</h1>
           </article>
 
-          <div className="text-center">
-            <button className='text-white bg-BluePrimary py-2 px-6 rounded-xl uppercase mt-8 gradient1 font-medium'>Faça um orçamento</button>
+          <div className="text-center mt-8 ">
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=5511961769308&text=Olá%2C%20tenho%20interesse%20no%20plano%20*Site%20por%20Assinatura*.%20Gostaria%20de%20saber%20mais%20detalhes%20sobre%20como%20funciona%20e%20quais%20são%20os%20benefícios.%20Poderia%20me%20fornecer%20mais%20informações%3F" className='text-white bg-BluePrimary py-2 px-6 rounded-xl uppercase gradient1 font-medium'>Faça um orçamento</a>
           </div>
 
         </div>

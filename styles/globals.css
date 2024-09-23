@@ -16,6 +16,11 @@
 .customH {
   position: relative;
   top: 71px;
+
+}
+
+.customNav{
+  height: calc(100vh - 71px);
 }
 
 /* BACKGROUNDS */
