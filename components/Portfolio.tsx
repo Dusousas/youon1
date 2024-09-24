@@ -36,8 +36,9 @@ export default function Portfolio() {
               }}
               className="w-full"
             >
+              
               <SwiperSlide className="flex justify-center items-center">
-                <a href="" className="flex justify-center">
+                <a target='_blank' href="https://atelieboho.com" className="flex justify-center">
                   <img
                     src="Boho.png"
                     alt="Projeto 1"
@@ -45,19 +46,21 @@ export default function Portfolio() {
                   />
                 </a>
               </SwiperSlide>
+
               <SwiperSlide className="flex justify-center items-center">
-                <a href="" className="flex justify-center">
+                <a target='_blank' href="voleonilda.vercel.app" className="flex justify-center">
                   <img
-                    src="Boho.png"
+                    src="Voleonilda.png"
                     alt="Projeto 2"
                     className="object-contain h-auto max-w-[90%] lg:max-w-[90%]"
                   />
                 </a>
               </SwiperSlide>
+
               <SwiperSlide className="flex justify-center items-center">
-                <a href="" className="flex justify-center">
+                <a target='_blank' href="https://nutri-sooty.vercel.app" className="flex justify-center">
                   <img
-                    src="Boho.png"
+                    src="Nutri.png"
                     alt="Projeto 3"
                     className="object-contain h-auto max-w-[90%] lg:max-w-[90%]"
                   />
@@ -65,14 +68,25 @@ export default function Portfolio() {
               </SwiperSlide>
 
               <SwiperSlide className="flex justify-center items-center">
-                <a href="" className="flex justify-center">
+                <a target='_blank' href="https://studio-madam.vercel.app" className="flex justify-center">
                   <img
-                    src="Boho.png"
+                    src="madam.png"
                     alt="Projeto 3"
                     className="object-contain h-auto max-w-[90%] lg:max-w-[90%]"
                   />
                 </a>
               </SwiperSlide>
+
+              <SwiperSlide className="flex justify-center items-center">
+                <a target='_blank' href="https://adv-sage.vercel.app" className="flex justify-center">
+                  <img
+                    src="Adv.png"
+                    alt="Projeto 3"
+                    className="object-contain h-auto max-w-[90%] lg:max-w-[90%]"
+                  />
+                </a>
+              </SwiperSlide>
+
             </Swiper>
           </article>
         

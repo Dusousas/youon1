@@ -4,6 +4,25 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
+      <script
+          dangerouslySetInnerHTML={{
+            __html: `
+                (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+                })(window,document,'script','dataLayer','GTM-N9Z7SV8K');
+              `,
+          }}
+        />  
+
+      {/* Meta t=Tags */}
+      <title>You on - Criação de Sites | Landing Pages</title>
+      <meta name="description" content="Especialistas em criação de sites e landing pages otimizadas e de alta conversão." />
+      <meta name="author" content="Agencia You on" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="keywords" content="Landing Pages, alta conversão, design otimizado, conteúdo persuasivo, geração de leads, SEO, campanhas promocionais, transformar cliques, crescimento de negócios, criação de sites, criar site, meu site, you on, agencia, sites" />
+      <link rel="icon" href="iconyon.png" type="image/png" />
       {/* Montserrat */}
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -15,6 +34,14 @@ export default function Document() {
       <body className="antialiased">
         <Main />
         <NextScript />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-N9Z7SV8K"
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
+          ></iframe>
+        </noscript>
       </body>
     </Html>
   );

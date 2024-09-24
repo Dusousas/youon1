@@ -47,7 +47,10 @@ export default function Ask() {
 
                             <details className="mt-4">
                                 <summary className="text-white border border-BluePrimary rounded-t-xl cursor-pointer p-4 font-semibold">Existem custos mensais obrigatórios após a conclusão do meu site?</summary>
-                                <p className="text-white font-Poppins border-x border-b border-BluePrimary cardLinear p-4">Sim, está incluso em nosso trabalho de desenvolvimento de sites cadastrar seu site no Google e otimizar ele de acordo com as boas práticas de SEO.</p>
+                                <p className="text-white font-Poppins border-x border-b border-BluePrimary cardLinear p-4">Após a conclusão do seu site, os custos mensais dependem do plano escolhido:
+                                <span className="block mt-4">Plano de Assinatura: Você paga apenas a mensalidade combinada, sem custos adicionais.</span>
+                                <span className="block mt-4">Plano Sob Medida: Pode haver custos trimestrais com a manutenção, que inclui hospedagem e domínio. Se optar por não pagar a manutenção, você será responsável por esses custos, geralmente pagos anualmente.</span>
+                                </p>
                             </details>
                         </article>
                     </div>

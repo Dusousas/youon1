@@ -73,7 +73,7 @@ export default function Services2() {
 
                   <div className="flex gap-6 border-b border-[#28282e] mt-8">
                     <div className="">
-                      <img className="w-[42px]" src="responsivo.png" alt="" />
+                      <img className="w-[42px]" src="seo.png" alt="" />
                     </div>
                     <div className="max-w-[500px] mb-8">
                       <h1 className="text-white text-xl font-semibold">Seo</h1>
@@ -90,7 +90,7 @@ export default function Services2() {
 
                   <div className="flex gap-6 border-b border-[#28282e] mt-8">
                     <div className="">
-                      <img className="w-[42px]" src="responsivo.png" alt="" />
+                      <img className="w-[42px]" src="layouts.png" alt="" />
                     </div>
                     <div className="max-w-[500px] mb-8">
                       <h1 className="text-white text-xl font-semibold">
@@ -114,7 +114,7 @@ export default function Services2() {
 
                   <div className="flex gap-6 border-b border-[#28282e] mt-8">
                     <div className="">
-                      <img className="w-[42px]" src="responsivo.png" alt="" />
+                      <img className="w-[42px]" src="web.png" alt="" />
                     </div>
                     <div className="max-w-[500px] mb-8">
                       <h1 className="text-white text-xl font-semibold">
@@ -134,7 +134,7 @@ export default function Services2() {
 
                   <div className="flex gap-6 border-b border-[#28282e] mt-8">
                     <div className="">
-                      <img className="w-[42px]" src="responsivo.png" alt="" />
+                      <img className="w-[42px]" src="suporte.png" alt="" />
                     </div>
                     <div className="max-w-[500px] mb-8">
                       <h1 className="text-white text-xl font-semibold">

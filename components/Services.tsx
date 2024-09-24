@@ -29,7 +29,7 @@ export default function Services() {
                         <div className="border cardLinear shadow border-BluePrimary rounded-xl mt-10 py-8 px-8 flex items-center flex-col max-w-[400px]">
                             {/* Ícone */}
                             <div className="flex  w-full mb-4">
-                                <img className="w-[80px] h-[80px] text-BluePrimary transition-all duration-300" src="mentoria.png" alt="Ícone de Landing Pages" />
+                                <img className="w-[80px] h-[80px] text-BluePrimary transition-all duration-300" src="sitei.png" alt="Ícone de Landing Pages" />
                             </div>
                             {/* Texto */}
                             <div className="">
@@ -43,7 +43,7 @@ export default function Services() {
                         <div className="border cardLinear shadow border-BluePrimary rounded-xl mt-10 py-8 px-8 flex items-center flex-col max-w-[400px]">
                             {/* Ícone */}
                             <div className="flex  w-full mb-4">
-                                <img className="w-[80px] h-[80px] text-BluePrimary transition-all duration-300" src="mentoria.png" alt="Ícone de Landing Pages" />
+                                <img className="w-[80px] h-[80px] text-BluePrimary transition-all duration-300" src="loja.png" alt="Ícone de Landing Pages" />
                             </div>
                             {/* Texto */}
                             <div className="">

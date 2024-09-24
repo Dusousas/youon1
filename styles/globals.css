@@ -16,11 +16,10 @@
 .customH {
   position: relative;
   top: 71px;
-
 }
 
 .customNav{
-  height: calc(100vh - 71px);
+  height: calc(100vh - 70px);
 }
 
 /* BACKGROUNDS */
@@ -48,9 +47,7 @@
 }
 
 .outlined-text {
-  /* color: transparent; */
   color: rgba(11, 176,230, 0.04);
-
   -webkit-text-stroke: 1px #0bb0e6;
   text-stroke: 2px #0bb0e6;
 }
@@ -64,7 +61,6 @@
 .shadow {
   box-shadow: rgba(11, 176, 230, 0.45) 0px 20px 22px -20px;
 }
-
 
 .cardLinear {
   background: linear-gradient(0deg, #0bb0e6 -500%, transparent 90%);

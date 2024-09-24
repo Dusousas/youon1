@@ -19,35 +19,42 @@ export default function CardSingleAss() {
             <div>
               <img src="veri.png" alt="" />
             </div>
-            <h1 className="pl-2">Criação de site profissional com modelo de layout</h1>
+            <h1 className="pl-2">Criação de site profissional</h1>
           </article>
 
           <article className="flex pt-6 items-center">
             <div>
               <img src="veri.png" alt="" />
             </div>
-            <h1 className="pl-2">Criação de site profissional com modelo de layout</h1>
+            <h1 className="pl-2">Site responsivo (desktop, tablet, celular)</h1>
           </article>
 
           <article className="flex pt-6 items-center">
             <div>
               <img src="veri.png" alt="" />
             </div>
-            <h1 className="pl-2">Criação de site profissional com modelo de layout</h1>
+            <h1 className="pl-2">Manutenção 24 horas</h1>
           </article>
 
           <article className="flex pt-6 items-center">
             <div>
               <img src="veri.png" alt="" />
             </div>
-            <h1 className="pl-2">Criação de site profissional com modelo de layout</h1>
+            <h1 className="pl-2">Hopedagem</h1>
           </article>
 
           <article className="flex pt-6 items-center">
             <div>
               <img src="veri.png" alt="" />
             </div>
-            <h1 className="pl-2">Criação de site profissional com modelo de layout</h1>
+            <h1 className="pl-2">Domínio</h1>
+          </article>
+
+          <article className="flex pt-6 items-center">
+            <div>
+              <img src="veri.png" alt="" />
+            </div>
+            <h1 className="pl-2">Otimização SEO para Google</h1>
           </article>
 
           <div className="text-center mt-8 ">

@@ -7,7 +7,7 @@ export default function CardSingleAss() {
             <img className="w-[60px]" src="medida.png" alt="" />
           </div>
           <h1 className="uppercase font-bold text-center ">Site Sob Medida</h1>
-          <p className="text-GrayT my-4">Para quem deseja uma solução completa com benefícios extras e suporte contínuo, com um custo mensal acessível.</p>
+          <p className="text-GrayT my-4">Site perfeito para sua marca, com suporte opcional para manter tudo atualizado. Pagou e o site é totalmente seu.</p>
         </div>
 
         <div className="border-b py-4 ">
@@ -20,35 +20,42 @@ export default function CardSingleAss() {
             <div>
               <img src="veri.png" alt="" />
             </div>
-            <h1 className="pl-2">Criação de site profissional com modelo de layout</h1>
+            <h1 className="pl-2">Criação de site profissional</h1>
           </article>
 
           <article className="flex pt-6 items-center">
             <div>
               <img src="veri.png" alt="" />
             </div>
-            <h1 className="pl-2">Criação de site profissional com modelo de layout</h1>
+            <h1 className="pl-2">Site responsivo (desktop, tablet, celular)</h1>
           </article>
 
           <article className="flex pt-6 items-center">
             <div>
               <img src="veri.png" alt="" />
             </div>
-            <h1 className="pl-2">Criação de site profissional com modelo de layout</h1>
+            <h1 className="pl-2">Pagamento Único</h1>
           </article>
 
           <article className="flex pt-6 items-center">
             <div>
               <img src="veri.png" alt="" />
             </div>
-            <h1 className="pl-2">Criação de site profissional com modelo de layout</h1>
+            <h1 className="pl-2">Otimização SEO para Google</h1>
           </article>
 
           <article className="flex pt-6 items-center">
             <div>
               <img src="veri.png" alt="" />
             </div>
-            <h1 className="pl-2">Criação de site profissional com modelo de layout</h1>
+            <h1 className="pl-2">Manutenção (Opcional)</h1>
+          </article>
+
+          <article className="flex pt-6 items-center">
+            <div>
+              <img src="veri.png" alt="" />
+            </div>
+            <h1 className="pl-2">Propriedade completa</h1>
           </article>
 
           <div className="text-center  mt-8">
